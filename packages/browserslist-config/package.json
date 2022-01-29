@@ -1,0 +1,28 @@
+{
+  "name": "@web-configs/browserslist",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Shareable browserslist configuration for ThunderMiracle.",
+  "keywords": [
+    "ThunderMiracle",
+    "browserslist"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "@web-configs:registry": "https://registry.npmjs.org"
+  },
+  "author": "ThunderMiracle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thundermiracle/web-configs.git",
+    "directory": "packages/browserslist-config"
+  },
+  "bugs": {
+    "url": "https://github.com/thundermiracle/web-configs/issues"
+  },
+  "homepage": "https://github.com/thundermiracle/web-configs/blob/main/packages/browserslist-config/README.md",
+  "devDependencies": {
+    "browserslist": "^4.3.4"
+  }
+}

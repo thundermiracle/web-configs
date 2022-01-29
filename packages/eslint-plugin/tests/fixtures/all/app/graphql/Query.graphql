@@ -1,0 +1,6 @@
+query AllTestQuery {
+  foo {
+    id
+    bar
+  }
+}
