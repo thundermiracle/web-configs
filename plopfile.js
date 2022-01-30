@@ -1,7 +1,7 @@
 const { readdirSync, existsSync } = require('fs');
 const path = require('path');
 
-const jsPackageNames = getPackageNames('js');
+const jsPackageInfos = getPackageInfos('js');
 
 module.exports = function (plop) {
   plop.setGenerator('package', {
@@ -67,20 +67,34 @@ module.exports = function (plop) {
         path: 'README.md',
         templateFile: 'templates/ROOT_README.hbs.md',
         force: true,
-        data: { jsPackageNames },
+        data: { jsPackageInfos },
       },
     ],
   });
 };
 
-function getPackageNames() {
+function getPackageInfos() {
   const packagesPath = path.join(__dirname, 'packages');
-  return readdirSync(packagesPath).filter((packageName) => {
-    const packageJSONPath = path.join(
-      packagesPath,
-      packageName,
-      'package.json',
-    );
-    return existsSync(packageJSONPath);
-  });
+  return readdirSync(packagesPath)
+    .filter((packageName) => {
+      const packageJSONPath = path.join(
+        packagesPath,
+        packageName,
+        'package.json',
+      );
+      return existsSync(packageJSONPath);
+    })
+    .map((packageName) => {
+      const packageJSONPath = path.join(
+        packagesPath,
+        packageName,
+        'package.json',
+      );
+      const packageJSON = require(packageJSONPath);
+      return {
+        folder: packageName,
+        pkgName: packageJSON.name,
+        pkgNameEncoded: encodeURIComponent(packageJSON.name),
+      };
+    });
 }
