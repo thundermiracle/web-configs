@@ -25,10 +25,6 @@ module.exports = {
   '@web-configs/no-useless-computed-properties': 'error',
   // Prevent the declaration of classes consisting only of static members.
   '@web-configs/no-fully-static-classes': 'error',
-  // Prefer the use of the `sectioned` props in Polaris components instead of wrapping all contents in a `Section` component.
-  '@web-configs/polaris-prefer-sectioned-prop': 'off',
-  // Disallow the use of Polaris’s `Stack.Item` without any custom props.
-  '@web-configs/polaris-no-bare-stack-item': 'off',
   // Prefer class properties to assignment of literals in constructors.
   '@web-configs/prefer-class-properties': 'off',
   // Prefer early returns over full-body conditional wrapping in function declarations.
