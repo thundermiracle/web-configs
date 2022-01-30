@@ -10,7 +10,7 @@
   "scripts": {
     "format": "prettier --write . '!**/eslint-plugin/tests/fixtures/**/*' '!**/*.{hbs,hbs.js}'",
     "test": "jest",
-    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
     "check": "lerna run check",
     "generate": "plop",
     "version-bump": "lerna version --no-push --include-merged-tags",
