@@ -42,6 +42,5 @@ tmp
 **/test.log
 *.tsbuildinfo
 
-package-lock.json
-
 .swc
+.eslintcache

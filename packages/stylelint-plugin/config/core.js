@@ -473,13 +473,7 @@ module.exports = {
   'value-keyword-case': [
     'lower',
     {
-      ignoreProperties: [
-        'font',
-        'font-family',
-        '/^--.*font/',
-        '/^\\$.*font/',
-        '/^\\$polaris/',
-      ],
+      ignoreProperties: ['font', 'font-family', '/^--.*font/', '/^\\$.*font/'],
     },
   ],
   // Require a newline or disallow whitespace after the commas of value lists.

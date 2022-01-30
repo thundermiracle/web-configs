@@ -13,8 +13,6 @@ module.exports = {
     'no-namespace-imports': require('./lib/rules/no-namespace-imports'),
     'no-useless-computed-properties': require('./lib/rules/no-useless-computed-properties'),
     'no-fully-static-classes': require('./lib/rules/no-fully-static-classes'),
-    'polaris-prefer-sectioned-prop': require('./lib/rules/polaris-prefer-sectioned-prop'),
-    'polaris-no-bare-stack-item': require('./lib/rules/polaris-no-bare-stack-item'),
     'prefer-class-properties': require('./lib/rules/prefer-class-properties'),
     'prefer-early-return': require('./lib/rules/prefer-early-return'),
     'prefer-module-scope-constants': require('./lib/rules/prefer-module-scope-constants'),
@@ -48,7 +46,6 @@ module.exports = {
     graphql: require('./lib/config/graphql'),
     jest: require('./lib/config/jest'),
     node: require('./lib/config/node'),
-    polaris: require('./lib/config/polaris'),
     webpack: require('./lib/config/webpack'),
 
     // Prettier config - When extending, this must go last

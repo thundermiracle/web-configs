@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
-This repository contains common configurations for building web apps at thundermiracle.
+This repository contains common configurations for building web apps. The original version is [here](https://github.com/shopify/web-configs/).
 
 ## Usage
 
@@ -39,12 +39,6 @@ There are many ways to contribute, some of which are:
 #### Getting Started
 
 ```bash
-# ThunderMiracle Employee
-dev clone web-configs
-dev up
-
-# External Contributor - To start working on the codebase, first fork the repo, then clone it
-git clone git@github.com:{your-username}/web-configs.git # replace {your-username} with your GitHub handle
 yarn # install project dependencies
 yarn lerna bootstrap
 ```
