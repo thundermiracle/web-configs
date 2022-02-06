@@ -1,6 +1,6 @@
-# `@web-configs/browserslist`
+# `@web-configs/browserslist-config`
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../../LICENSE) [![npm version](https://badge.fury.io/js/%40web-configs%2Fbrowserslist.svg)](https://badge.fury.io/js/%40web-configs%2Fbrowserslist.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](../../LICENSE) [![npm version](https://badge.fury.io/js/%40web-configs%2Fbrowserslist-config.svg)](https://badge.fury.io/js/%40web-configs%2Fbrowserslist-config.svg)
 
 Shareable [browserslist](https://github.com/ai/browserslist) configuration for ThunderMiracle.
 
@@ -22,7 +22,7 @@ You can list all supported browsers by running `npx browserslist "last 1 firefox
 Install the module.
 
 ```shell
-$ yarn add @web-configs/browserslist
+$ yarn add @web-configs/browserslist-config
 ```
 
 ## Usage
@@ -31,6 +31,6 @@ $ yarn add @web-configs/browserslist
 
 ```json
 {
-  "browserslist": ["extends @web-configs/browserslist"]
+  "browserslist": ["extends @web-configs/browserslist-config"]
 }
 ```

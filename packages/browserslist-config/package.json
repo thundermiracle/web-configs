@@ -1,5 +1,5 @@
 {
-  "name": "@web-configs/browserslist",
+  "name": "@web-configs/browserslist-config",
   "version": "0.1.0",
   "license": "MIT",
   "description": "Shareable browserslist configuration for ThunderMiracle.",
