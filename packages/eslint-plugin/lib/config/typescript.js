@@ -69,5 +69,11 @@ module.exports = {
         '@web-configs/typescript/prefer-build-client-schema': 'error',
       },
     },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/triple-slash-reference': 'off',
+      },
+    },
   ],
 };

@@ -263,4 +263,7 @@ module.exports = {
   // disabling the base rule as it can report incorrect errors
   'space-infix-ops': 'off',
   '@typescript-eslint/space-infix-ops': 'error',
+
+  // Allow triple slash comments
+  'spaced-comment': ['error', 'always', { markers: ['/'] }],
 };

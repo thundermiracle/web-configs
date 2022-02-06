@@ -80,7 +80,7 @@ module.exports = {
   // Prevent missing props validation in a React component definition
   'react/prop-types': 'error',
   // Prevent missing React when using JSX
-  'react/react-in-jsx-scope': 'error',
+  'react/react-in-jsx-scope': 'off',
   // Enforce a defaultProps definition for every prop that is not a required prop
   'react/require-default-props': 'off',
   // Enforce React components to have a shouldComponentUpdate method
