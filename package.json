@@ -14,8 +14,7 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}' --cache",
     "check": "lerna run check",
     "generate": "plop",
-    "version-bump": "lerna version --no-push --include-merged-tags",
-    "version": "node scripts/update-changelogs-on-version.js",
+    "version": "lerna version --no-push --conventional-commits --no-private",
     "generate:package": "plop package && yarn plop docs",
     "updated": "lerna updated"
   },
