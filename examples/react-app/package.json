@@ -19,7 +19,9 @@
     "@web-configs/browserslist-config": "*",
     "@web-configs/eslint-plugin": "*",
     "@web-configs/prettier": "*",
-    "typescript": "^4.4.4",
+    "@web-configs/typescript": "*",
+    "typescript": "^4.5.5",
+    "utils-lib": "*",
     "vite": "^2.7.2"
   },
   "browserslist": [

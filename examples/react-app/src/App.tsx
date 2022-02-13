@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
+import { Calculator } from 'utils-lib';
 
 import logo from './logo.svg';
 import './App.css';
@@ -6,13 +7,17 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
+  const handleClick = useCallback(() => {
+    setCount(Calculator.Add(count, 1));
+  }, [count]);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button type="button" onClick={handleClick}>
             count is: {count}
           </button>
         </p>

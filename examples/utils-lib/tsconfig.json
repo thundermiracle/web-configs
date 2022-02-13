@@ -1,0 +1,9 @@
+{
+  "extends": "@web-configs/typescript/library.json",
+  "compilerOptions": {
+    "outDir": "dist/types",
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src/**/*"]
+}
