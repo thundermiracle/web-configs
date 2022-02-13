@@ -15,6 +15,7 @@
     "check": "lerna run check",
     "generate": "plop",
     "version": "lerna version --no-push --conventional-commits --no-private",
+    "publish": "lerna publish from-git",
     "generate:package": "plop package && yarn plop docs",
     "updated": "lerna updated"
   },
