@@ -4,8 +4,8 @@
 module.exports = {
   // Ignores capitalized decorators (@Decorator)
   '@babel/new-cap': ['error', { newIsCap: true, capIsNew: false }],
-  // Doesn't complain about export x from "mod"; or export * as x from "mod";
-  '@babel/object-curly-spacing': ['error', 'never'],
+  // Doesn't complain about curly spacing;
+  '@babel/object-curly-spacing': ['off'],
   // Doesn't fail when inside class properties
   '@babel/no-invalid-this': 'error',
   // Doesn't fail when using do expressions or optional chaining
