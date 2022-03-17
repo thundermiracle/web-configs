@@ -18,7 +18,7 @@
       "conventionalCommits": true
     },
     "version": {
-      "message": "chore(release): publish %s"
+      "message": "chore(release): 🚀 publish"
     }
   }
 }
