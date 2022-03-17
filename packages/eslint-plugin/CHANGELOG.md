@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.2.0...@web-configs/eslint-plugin@0.2.1) (2022-03-17)
+
+
+### Bug Fixes
+
+* inconsistent spacing rule ([b035e4e](https://github.com/thundermiracle/web-configs/commit/b035e4eea93da58f6aa088b485aba9e466b5acd9))
+
+
+
+
+
 # [0.2.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.1.1...@web-configs/eslint-plugin@0.2.0) (2022-03-16)
 
 
