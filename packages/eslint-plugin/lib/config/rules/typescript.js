@@ -257,7 +257,7 @@ module.exports = {
   // Enforce consistent spacing inside braces
   // disabling the base rule as it can report incorrect errors
   'object-curly-spacing': 'off',
-  '@typescript-eslint/object-curly-spacing': 'error',
+  '@typescript-eslint/object-curly-spacing': 'off',
 
   // This rule is aimed at ensuring there are spaces around infix operators.
   // disabling the base rule as it can report incorrect errors
