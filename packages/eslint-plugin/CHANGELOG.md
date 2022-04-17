@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.2.1...@web-configs/eslint-plugin@0.3.0) (2022-04-17)
+
+
+### Features
+
+* add github recommend lint rules ([#3](https://github.com/thundermiracle/web-configs/issues/3)) ([6da7d7e](https://github.com/thundermiracle/web-configs/commit/6da7d7ead4ee3d284c649a0c81f7b8f193581a68))
+
+
+
+
+
 ## [0.2.1](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.2.0...@web-configs/eslint-plugin@0.2.1) (2022-03-17)
 
 
