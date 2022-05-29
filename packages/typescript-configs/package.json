@@ -1,6 +1,6 @@
 {
   "name": "@web-configs/typescript",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "A set of typescript configuration files that can be extended.",
   "author": "ThunderMiracle",
