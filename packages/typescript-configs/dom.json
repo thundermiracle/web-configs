@@ -1,10 +1,19 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./base.json",
   "compilerOptions": {
     "jsx": "react",
-    "lib": ["dom", "dom.iterable", "scripthost", "es2020"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "es2020"
+    ],
     "module": "esnext",
     "target": "es2020"
   },
-  "files": ["./definitions/images.d.ts", "./definitions/styles.d.ts"]
+  "files": [
+    "./definitions/images.d.ts",
+    "./definitions/styles.d.ts"
+  ]
 }

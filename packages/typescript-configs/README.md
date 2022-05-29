@@ -59,10 +59,7 @@ Similarly for a react library project. Create a `tsconfig.json` in the root of y
 ```json
 {
   "extends": "@web-configs/typescript/nextjs.json",
-  "compilerOptions": {
-    "rootDir": "."
-  },
-  "include": ["next-env.d.ts", "./src/**/*.ts", "./src/**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
 ```
