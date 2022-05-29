@@ -52,6 +52,21 @@ Similarly for a react library project. Create a `tsconfig.json` in the root of y
 }
 ```
 
+#### Next.js Project
+
+Similarly for a react library project. Create a `tsconfig.json` in the root of your project with a setup below assuming the library code sit in `[project root]/src` folder.
+
+```json
+{
+  "extends": "@web-configs/typescript/nextjs.json",
+  "compilerOptions": {
+    "rootDir": "."
+  },
+  "include": ["next-env.d.ts", "./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
+```
+
 #### Project that run in the browser
 
 A configuration file is provided that included styles setup and a more conservative build target.
