@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/thundermiracle/web-configs/compare/@web-configs/typescript@0.2.0...@web-configs/typescript@0.2.1) (2022-05-29)
+
+
+### Bug Fixes
+
+* add allowJs true to nextjs.json ([#5](https://github.com/thundermiracle/web-configs/issues/5)) ([46e5dd7](https://github.com/thundermiracle/web-configs/commit/46e5dd76bc43fbe0805eed1e29916904fbc9f60e))
+
+
+
+
+
 # [0.2.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/typescript@0.1.1...@web-configs/typescript@0.2.0) (2022-05-29)
 
 
