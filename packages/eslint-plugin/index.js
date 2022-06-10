@@ -12,7 +12,6 @@ module.exports = {
     graphql: require('./lib/config/graphql'),
     jest: require('./lib/config/jest'),
     node: require('./lib/config/node'),
-    webpack: require('./lib/config/webpack'),
     github: require('./lib/config/github'),
 
     // Prettier config - When extending, this must go last

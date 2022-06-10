@@ -21,7 +21,5 @@ module.exports = {
         ],
       },
     ],
-    // Disallows jest snapshots.
-    '@web-configs/jest/no-snapshots': 'error',
   },
 };

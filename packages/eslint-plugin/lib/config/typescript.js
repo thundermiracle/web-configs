@@ -33,7 +33,6 @@ module.exports = {
         'no-extra-parens': 'off',
         'no-empty-function': 'off',
         'func-call-spacing': 'off',
-        '@web-configs/no-fully-static-classes': 'off',
         'sort-class-members/sort-class-members': 'off',
         camelcase: 'off',
         'no-array-constructor': 'off',
@@ -57,16 +56,8 @@ module.exports = {
 
         // Breaks @typescript-eslint/parser
         strict: 'off',
-        '@web-configs/prefer-early-return': 'off',
         'array-callback-return': 'off',
         'getter-return': 'off',
-
-        // Prefer TypeScript enums be defined using Pascal case
-        '@web-configs/typescript/prefer-pascal-case-enums': 'error',
-        // Prefer TypeScript enums be defined using singular names
-        '@web-configs/typescript/prefer-singular-enums': 'error',
-        // Prefer buildClientSchema for schema building.
-        '@web-configs/typescript/prefer-build-client-schema': 'error',
       },
     },
     {
