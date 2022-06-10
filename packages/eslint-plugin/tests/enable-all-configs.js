@@ -14,7 +14,6 @@ module.exports = {
     'plugin:@web-configs/graphql',
     'plugin:@web-configs/jest',
     'plugin:@web-configs/node',
-    'plugin:@web-configs/webpack',
 
     // Prettier config - When extending, this must go last
     'plugin:@web-configs/prettier',
