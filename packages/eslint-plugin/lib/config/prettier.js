@@ -9,7 +9,6 @@ module.exports = {
     '@babel/semi': 'off',
     '@babel/object-curly-spacing': 'off',
     '@web-configs/class-property-semi': 'off',
-    '@web-configs/binary-assignment-parens': 'off',
     'prefer-arrow-callback': 'off',
     'arrow-body-style': 'off',
 
