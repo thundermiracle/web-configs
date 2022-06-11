@@ -7272,14 +7272,6 @@ jsonparse@^1.2.0, jsonparse@^1.3.1:
     array-includes "^3.1.3"
     object.assign "^4.1.2"
 
-jsx-ast-utils@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-3.3.0.tgz#e624f259143b9062c92b6413ff92a164c80d3ccb"
-  integrity sha512-XzO9luP6L0xkxwhIJMTJQpZo/eeN60K08jHdexfD569AGxeNug6UketeHXEhROoM8aR7EcUoOQmIhcJQjcuq8Q==
-  dependencies:
-    array-includes "^3.1.4"
-    object.assign "^4.1.2"
-
 just-diff-apply@^5.2.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-5.3.1.tgz#30f40809ffed55ad76dccf73fa9b85a76964c867"
@@ -8764,11 +8756,6 @@ plop@^3.1.0:
     node-plop "^0.31.0"
     ora "^6.0.1"
     v8flags "^4.0.0"
-
-pluralize@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
-  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
 postcss-media-query-parser@^0.2.3:
   version "0.2.3"
