@@ -26,7 +26,7 @@
   "homepage": "https://github.com/thundermiracle/web-configs/blob/main/packages/eslint-plugin/README.md",
   "devDependencies": {
     "graphql": "^15.7.2",
-    "react": "^17.0.2",
+    "react": "^18.1.0",
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
