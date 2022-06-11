@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.4.0...@web-configs/eslint-plugin@0.4.1) (2022-06-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#27](https://github.com/thundermiracle/web-configs/issues/27)) ([7450807](https://github.com/thundermiracle/web-configs/commit/745080797c260ab9d4da8651a5eb2f0e4bff5878))
+* **deps:** update babel monorepo ([#14](https://github.com/thundermiracle/web-configs/issues/14)) ([42a7059](https://github.com/thundermiracle/web-configs/commit/42a70591a26d7a5c770c687628e61a61b8b09254))
+* **deps:** update linters ([#16](https://github.com/thundermiracle/web-configs/issues/16)) ([96e77f9](https://github.com/thundermiracle/web-configs/commit/96e77f9816003f94ee43b500853b0cbd15176dcb))
+* **deps:** update linters ([#28](https://github.com/thundermiracle/web-configs/issues/28)) ([d247701](https://github.com/thundermiracle/web-configs/commit/d247701f6925a708be3869feca1f3d2246d37484))
+
+
+
+
+
 # [0.4.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.3.0...@web-configs/eslint-plugin@0.4.0) (2022-06-11)
 
 
