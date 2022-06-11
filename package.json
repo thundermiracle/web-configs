@@ -20,13 +20,13 @@
     "updated": "lerna updated"
   },
   "devDependencies": {
-    "@swc/core": "^1.2.135",
-    "@swc/jest": "^0.2.17",
+    "@swc/core": "^1.2.197",
+    "@swc/jest": "^0.2.21",
     "@types/jest": "^26.0.24",
     "eslint": "^8.3.0",
     "fs-extra": "^9.0.0",
     "glob": "^7.1.6",
-    "jest": "^27.0.6",
+    "jest": "^27.5.1",
     "lerna": "^4.0.0",
     "plop": "^2.6.0",
     "prettier": "^2.0.5"
