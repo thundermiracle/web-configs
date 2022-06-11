@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.4.2...@web-configs/eslint-plugin@0.4.3) (2022-06-11)
+
+
+### Bug Fixes
+
+* add graphql to dependency in eslint package to avoid dependencies warning ([#33](https://github.com/thundermiracle/web-configs/issues/33)) ([9cd556e](https://github.com/thundermiracle/web-configs/commit/9cd556e15a64a766d467d45614d7227bae55865f))
+
+
+
+
+
 ## [0.4.2](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.4.1...@web-configs/eslint-plugin@0.4.2) (2022-06-11)
 
 
