@@ -7,9 +7,7 @@
     "group:reactMonorepo"
   ],
   "rebaseWhen": "conflicted",
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "platformCommit": true,
   "platformAutomerge": true,
@@ -20,37 +18,21 @@
   "packageRules": [
     {
       "extends": "packages:linters",
-      "matchPackageNames": [
-        "eslint-plugin-react-hooks"
-      ],
+      "matchPackageNames": ["eslint-plugin-react-hooks"],
       "groupName": "linters"
     },
     {
       "extends": "monorepo:babel",
-      "matchUpdateTypes": [
-        "digest",
-        "patch",
-        "minor",
-        "major"
-      ],
-      "matchPackagePatterns": [
-        "babel-plugin-.*"
-      ],
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "matchPackagePatterns": ["babel-plugin-.*"],
       "groupName": "babel monorepo",
       "automerge": true
     },
     {
       "extends": "packages:jsTest",
-      "matchPackageNames": [
-        "vitest",
-        "@swc/core",
-        "@swc/jest"
-      ],
+      "matchPackageNames": ["vitest", "@swc/core", "@swc/jest"],
       "groupName": "JS test packages"
     }
   ],
-  "ignoreDeps": [
-    "node",
-    "graphql"
-  ]
+  "ignoreDeps": ["node", "graphql"]
 }
