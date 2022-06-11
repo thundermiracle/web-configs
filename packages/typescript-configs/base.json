@@ -5,10 +5,7 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
-    "lib": [
-      "dom",
-      "es2020"
-    ],
+    "lib": ["dom", "es2020"],
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -17,9 +14,7 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "src/*": [
-        "src/*"
-      ]
+      "src/*": ["src/*"]
     }
   }
 }
