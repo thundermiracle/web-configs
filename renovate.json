@@ -5,7 +5,8 @@
     "schedule:monthly",
     "group:allNonMajor",
     "group:linters",
-    "group:babelMonorepo"
+    "group:babelMonorepo",
+    "group:reactMonorepo"
   ],
   "rebaseWhen": "conflicted",
   "labels": [
@@ -20,9 +21,25 @@
   },
   "packageRules": [
     {
+      "extends": "monorepo:babel",
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ],
+      "matchPackagePatterns": [
+        "babel-plugin-.*"
+      ],
+      "groupName": "babel monorepo",
+      "automerge": true
+    },
+    {
       "extends": "packages:jsTest",
       "matchPackageNames": [
-        "vitest"
+        "vitest",
+        "@swc/core",
+        "@swc/jest"
       ],
       "groupName": "JS test packages"
     }
