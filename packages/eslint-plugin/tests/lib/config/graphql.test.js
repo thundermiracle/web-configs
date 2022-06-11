@@ -1,3 +1,4 @@
+/* eslint-disable jest/no-disabled-tests */
 import { configFile, execESLint, fixtureFile } from '../../utilities';
 
 describe('config', () => {
