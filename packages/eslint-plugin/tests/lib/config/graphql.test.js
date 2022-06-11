@@ -2,7 +2,7 @@ import { configFile, execESLint, fixtureFile } from '../../utilities';
 
 describe('config', () => {
   describe('graphql', () => {
-    it('validates .graphql files using graphql plugin', () => {
+    it.skip('validates .graphql files using graphql plugin', () => {
       expect(
         execESLint(
           `--ignore-pattern "**/graphql-lint-error/build/*" --config "${configFile(
@@ -12,7 +12,7 @@ describe('config', () => {
       ).toMatch(/Cannot query field .*DOES_NOT_EXIST/);
     }, 8000);
 
-    it('validates .graphql files with required `id` field using graphql plugin', () => {
+    it.skip('validates .graphql files with required `id` field using graphql plugin', () => {
       expect(
         execESLint(
           `--ignore-pattern "**/graphql-lint-error/build/*" --config "${configFile(

@@ -1,11 +1,12 @@
 module.exports = {
-  plugins: ['graphql'],
-
   overrides: [
     {
-      parser: '@babel/eslint-parser',
+      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
+      processor: '@graphql-eslint/graphql',
+    },
+    {
       files: ['*.graphql'],
-      rules: require('./rules/graphql'),
+      extends: 'plugin:@graphql-eslint/schema-recommended',
     },
   ],
 };
