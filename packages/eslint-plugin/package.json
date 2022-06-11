@@ -1,6 +1,6 @@
 {
   "name": "@web-configs/eslint-plugin",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "description": "ThunderMiracle's ESLint rules and configs.",
   "keywords": [

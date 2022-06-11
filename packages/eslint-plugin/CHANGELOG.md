@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.3.0...@web-configs/eslint-plugin@0.4.0) (2022-06-11)
+
+
+### Features
+
+* force consistent type imports ([#8](https://github.com/thundermiracle/web-configs/issues/8)) ([95654a4](https://github.com/thundermiracle/web-configs/commit/95654a49b4a51041836a04e3ed7cba1b39410782))
+
+
+
+
+
 # [0.3.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.2.1...@web-configs/eslint-plugin@0.3.0) (2022-04-17)
 
 
