@@ -4,8 +4,6 @@
     "config:base",
     "schedule:monthly",
     "group:allNonMajor",
-    "group:linters",
-    "group:babelMonorepo",
     "group:reactMonorepo"
   ],
   "rebaseWhen": "conflicted",
@@ -20,6 +18,13 @@
     "automerge": false
   },
   "packageRules": [
+    {
+      "extends": "packages:linters",
+      "matchPackageNames": [
+        "eslint-plugin-react-hooks"
+      ],
+      "groupName": "linters"
+    },
     {
       "extends": "monorepo:babel",
       "matchUpdateTypes": [
