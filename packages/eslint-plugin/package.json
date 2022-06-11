@@ -56,7 +56,6 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
     "jsx-ast-utils": "^3.3.0",
-    "pkg-dir": "^5.0.0",
     "pluralize": "^8.0.0"
   }
 }
