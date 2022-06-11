@@ -5,4 +5,10 @@ module.exports = {
     'plugin:@web-configs/prettier',
     'plugin:@web-configs/node',
   ],
+  rules: {
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      { prefer: 'type-imports' },
+    ],
+  },
 };

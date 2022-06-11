@@ -77,6 +77,9 @@ module.exports = {
     'error',
     {
       js: 'never',
+      jsx: 'never',
+      ts: 'never',
+      tsx: 'never',
       json: 'always',
       svg: 'always',
       png: 'always',
@@ -94,7 +97,7 @@ module.exports = {
   'import/order': [
     'error',
     {
-      groups: ['builtin', 'external', 'internal', 'parent', 'sibling'],
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'type'],
       'newlines-between': 'always',
     },
   ],

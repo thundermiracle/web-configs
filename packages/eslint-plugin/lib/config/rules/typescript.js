@@ -266,4 +266,9 @@ module.exports = {
 
   // Allow triple slash comments
   'spaced-comment': ['error', 'always', { markers: ['/'] }],
+
+  '@typescript-eslint/consistent-type-imports': [
+    'error',
+    { prefer: 'type-imports' },
+  ],
 };

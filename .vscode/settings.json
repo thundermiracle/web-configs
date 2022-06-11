@@ -6,7 +6,6 @@
   "editor.formatOnSave": true,
   "files.exclude": {
     "**/.git": true,
-    "**/node_modules": true,
     "**/.DS_Store": true,
     ".{dev,shadowenv.d}": true
   },
