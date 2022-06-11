@@ -18,6 +18,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.18.2",
     "@web-configs/babel-preset": "*",
     "@web-configs/browserslist-config": "*",
     "@web-configs/eslint-plugin": "*",
