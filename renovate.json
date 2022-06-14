@@ -1,38 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    "schedule:monthly",
-    "group:allNonMajor",
-    "group:reactMonorepo"
-  ],
-  "rebaseWhen": "conflicted",
-  "labels": ["dependencies"],
-  "rangeStrategy": "bump",
-  "platformCommit": true,
-  "platformAutomerge": true,
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
-  "packageRules": [
-    {
-      "extends": "packages:linters",
-      "matchPackageNames": ["eslint-plugin-react-hooks"],
-      "groupName": "linters"
-    },
-    {
-      "extends": "monorepo:babel",
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
-      "matchPackagePatterns": ["babel-plugin-.*"],
-      "groupName": "babel monorepo",
-      "automerge": true
-    },
-    {
-      "extends": "packages:jsTest",
-      "matchPackageNames": ["vitest", "@swc/core", "@swc/jest"],
-      "groupName": "JS test packages"
-    }
-  ],
-  "ignoreDeps": ["node", "graphql"]
+  "description": "Onboarding preset for use with ThunderMiracle's repos",
+  "extends": ["github>thundermiracle/.github"],
+  "automerge": true
 }
