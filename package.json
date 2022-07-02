@@ -20,7 +20,7 @@
     "updated": "lerna updated"
   },
   "devDependencies": {
-    "@swc/core": "^1.2.207",
+    "@swc/core": "^1.2.208",
     "@swc/jest": "^0.2.21",
     "@types/jest": "^28.1.4",
     "eslint": "^8.17.0",
