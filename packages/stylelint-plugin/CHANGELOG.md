@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/thundermiracle/web-configs/compare/@web-configs/stylelint-plugin@0.1.3...@web-configs/stylelint-plugin@0.1.4) (2022-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update linters ([#45](https://github.com/thundermiracle/web-configs/issues/45)) ([58a2e6d](https://github.com/thundermiracle/web-configs/commit/58a2e6d3097ebd423314638fb4bd9e98879bc537))
+
+
+
+
+
 ## [0.1.3](https://github.com/thundermiracle/web-configs/compare/@web-configs/stylelint-plugin@0.1.2...@web-configs/stylelint-plugin@0.1.3) (2022-06-11)
 
 

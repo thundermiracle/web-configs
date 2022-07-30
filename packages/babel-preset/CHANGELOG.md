@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/thundermiracle/web-configs/compare/@web-configs/babel-preset@0.1.2...@web-configs/babel-preset@0.1.3) (2022-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#44](https://github.com/thundermiracle/web-configs/issues/44)) ([d2efba9](https://github.com/thundermiracle/web-configs/commit/d2efba9710f60c28df71a90e37efe0168dd8c223))
+* **deps:** update babel monorepo to ^7.18.6 ([#38](https://github.com/thundermiracle/web-configs/issues/38)) ([fed3e9d](https://github.com/thundermiracle/web-configs/commit/fed3e9dad2a1fc7ecff76e5a86a319857e608a6a))
+
+
+
+
+
 ## [0.1.2](https://github.com/thundermiracle/web-configs/compare/@web-configs/babel-preset@0.1.1...@web-configs/babel-preset@0.1.2) (2022-06-11)
 
 

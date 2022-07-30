@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.4.3...@web-configs/eslint-plugin@0.5.0) (2022-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#44](https://github.com/thundermiracle/web-configs/issues/44)) ([d2efba9](https://github.com/thundermiracle/web-configs/commit/d2efba9710f60c28df71a90e37efe0168dd8c223))
+* **deps:** update babel monorepo to ^7.18.6 ([#38](https://github.com/thundermiracle/web-configs/issues/38)) ([fed3e9d](https://github.com/thundermiracle/web-configs/commit/fed3e9dad2a1fc7ecff76e5a86a319857e608a6a))
+* **deps:** update linters ([#41](https://github.com/thundermiracle/web-configs/issues/41)) ([cb213a7](https://github.com/thundermiracle/web-configs/commit/cb213a7a9940600c7c3397aa7035e412c6673983))
+* **deps:** update linters ([#45](https://github.com/thundermiracle/web-configs/issues/45)) ([58a2e6d](https://github.com/thundermiracle/web-configs/commit/58a2e6d3097ebd423314638fb4bd9e98879bc537))
+
+
+### Features
+
+* adjust 2 typescript rules ([#42](https://github.com/thundermiracle/web-configs/issues/42)) ([921c5ca](https://github.com/thundermiracle/web-configs/commit/921c5ca9b01c921842f922cd9e6df309173f2d54))
+
+
+
+
+
 ## [0.4.3](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.4.2...@web-configs/eslint-plugin@0.4.3) (2022-06-11)
 
 
