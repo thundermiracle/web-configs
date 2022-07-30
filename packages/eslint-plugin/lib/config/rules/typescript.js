@@ -207,7 +207,7 @@ module.exports = {
   // Sets preference level for triple slash directives versus ES6-style import declarations
   '@typescript-eslint/triple-slash-reference': [
     'error',
-    { path: 'never', types: 'never', lib: 'never' },
+    { path: 'never', types: 'always', lib: 'never' },
   ],
   // Requires type annotations to exist
   '@typescript-eslint/typedef': 'off',
@@ -247,10 +247,11 @@ module.exports = {
   // Requires that private members are marked as readonly if they're never modified outside of the constructor
   '@typescript-eslint/prefer-readonly': 'off',
   // This rule enforces a consistent way to define records.
-  '@typescript-eslint/consistent-indexed-object-style': [
-    'error',
-    'index-signature',
-  ],
+  // '@typescript-eslint/consistent-indexed-object-style': [
+  //   'error',
+  //   'index-signature',
+  // ],
+  '@typescript-eslint/consistent-indexed-object-style': 'off',
   // Disallows unnecessary constraints on generic types
   '@typescript-eslint/no-unnecessary-type-constraint': 'error',
 
