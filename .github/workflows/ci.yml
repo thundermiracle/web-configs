@@ -32,4 +32,4 @@ jobs:
 
       - run: pnpm lint
 
-      - run: pnpm test --coverage
+      - run: pnpm test -- --coverage
