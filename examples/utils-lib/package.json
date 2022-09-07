@@ -12,18 +12,18 @@
     "build:types": "tsc -p tsconfig.json",
     "build:cjs": "NODE_ENV=production babel src --out-dir ./dist/cjs --extensions \".ts\" --verbose",
     "build:esm": "NODE_ENV=production babel src --out-dir ./dist/esm --extensions \".ts\" --verbose --config-file ./babel.esm.config.js",
-    "build": "yarn build:cjs && yarn build:esm && yarn build:types",
+    "build": "pnpm build:cjs && pnpm build:esm && pnpm build:types",
     "lint": "eslint src"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.18.2",
-    "@web-configs/babel-preset": "*",
-    "@web-configs/browserslist-config": "*",
-    "@web-configs/eslint-plugin": "*",
-    "@web-configs/prettier": "*",
-    "@web-configs/typescript": "*",
+    "@web-configs/babel-preset": "workspace:*",
+    "@web-configs/browserslist-config": "workspace:*",
+    "@web-configs/eslint-plugin": "workspace:*",
+    "@web-configs/prettier": "workspace:*",
+    "@web-configs/typescript": "workspace:*",
     "typescript": "^4.5.5"
   },
   "browserslist": [

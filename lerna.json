@@ -1,7 +1,6 @@
 {
-  "lerna": "5.1.1",
-  "packages": ["packages/*", "examples/*"],
-  "npmClient": "yarn",
+  "lerna": "5.5.0",
+  "npmClient": "pnpm",
   "useWorkspaces": true,
   "version": "independent",
   "ignoreChanges": ["**/*.md", "**/tests/**", "**/test/**", "**/fixtures/**"],
