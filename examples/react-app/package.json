@@ -16,12 +16,12 @@
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
     "@vitejs/plugin-react": "^1.0.7",
-    "@web-configs/browserslist-config": "*",
-    "@web-configs/eslint-plugin": "*",
-    "@web-configs/prettier": "*",
-    "@web-configs/typescript": "*",
+    "@web-configs/browserslist-config": "workspace:*",
+    "@web-configs/eslint-plugin": "workspace:*",
+    "@web-configs/prettier": "workspace:*",
+    "@web-configs/typescript": "workspace:*",
     "typescript": "^4.5.5",
-    "utils-lib": "*",
+    "utils-lib": "workspace:*",
     "vite": "^2.7.2"
   },
   "browserslist": [

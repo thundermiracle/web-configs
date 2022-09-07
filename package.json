@@ -1,13 +1,10 @@
 {
   "version": "0.1.0",
   "name": "web-configs",
+  "packageManager": "pnpm@7.11.0",
   "author": "ThunderMiracle",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ],
   "scripts": {
     "format": "prettier --write . '!**/eslint-plugin/tests/fixtures/**/*' '!**/*.{hbs,hbs.js}'",
     "test": "jest",
@@ -16,13 +13,16 @@
     "generate": "plop",
     "version": "lerna version --no-push --conventional-commits --no-private",
     "publish": "lerna publish from-git",
-    "generate:package": "plop package && yarn plop docs",
+    "generate:package": "plop package && pnpm plop docs",
     "updated": "lerna updated"
   },
   "devDependencies": {
     "@swc/core": "^1.2.246",
     "@swc/jest": "^0.2.22",
     "@types/jest": "^29.0.0",
+    "@web-configs/babel-preset": "workspace:*",
+    "@web-configs/eslint-plugin": "workspace:*",
+    "@web-configs/prettier": "workspace:*",
     "eslint": "^8.23.0",
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
