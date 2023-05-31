@@ -17,9 +17,9 @@
     "updated": "lerna updated"
   },
   "devDependencies": {
-    "@swc/core": "^1.3.56",
+    "@swc/core": "^1.3.61",
     "@swc/jest": "^0.2.26",
-    "@types/jest": "^29.5.1",
+    "@types/jest": "^29.5.2",
     "@web-configs/babel-preset": "workspace:*",
     "@web-configs/eslint-plugin": "workspace:*",
     "@web-configs/prettier": "workspace:*",
