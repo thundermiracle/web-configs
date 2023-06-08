@@ -26,11 +26,11 @@
   "dependencies": {
     "postcss": "^8.4.17",
     "postcss-scss": "^4.0.5",
-    "stylelint-config-prettier": "^9.0.4",
-    "stylelint-high-performance-animation": "^1.7.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-high-performance-animation": "^1.8.0",
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
-    "stylelint-scss": "^4.3.0"
+    "stylelint-scss": "^4.7.0"
   },
   "peerDependencies": {
     "stylelint": ">=14.16.1"
