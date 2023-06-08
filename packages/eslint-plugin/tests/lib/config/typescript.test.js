@@ -21,12 +21,17 @@ describe('config', () => {
     );
 
     expect(esLintOutput).toStrictEqual(
-      expect.stringContaining('2 problems (2 errors, 0 warnings)'),
+      expect.stringContaining('3 problems (3 errors, 0 warnings)'),
     );
 
     // import/no-cycle error
     expect(esLintOutput).toStrictEqual(
       expect.stringContaining('typescript-imports/check-cycle/index.ts'),
+    );
+    expect(esLintOutput).toStrictEqual(
+      expect.stringContaining(
+        'typescript-imports/check-cycle/File2Circular.ts',
+      ),
     );
     expect(esLintOutput).toStrictEqual(
       expect.stringContaining('Dependency cycle detected'),
