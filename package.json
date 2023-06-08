@@ -24,7 +24,7 @@
     "@web-configs/eslint-plugin": "workspace:*",
     "@web-configs/prettier": "workspace:*",
     "eslint": "^8.42.0",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.1",
     "glob": "^10.2.7",
     "jest": "^29.5.0",
     "lerna": "^6.4.1",
