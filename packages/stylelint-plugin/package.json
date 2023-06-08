@@ -28,16 +28,16 @@
     "postcss-scss": "^4.0.6",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-high-performance-animation": "^1.8.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-prettier": "^2.0.0",
-    "stylelint-scss": "^4.7.0"
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^3.0.0",
+    "stylelint-scss": "^5.0.1"
   },
   "peerDependencies": {
-    "stylelint": ">=14.16.1"
+    "stylelint": ">=15.7.0"
   },
   "devDependencies": {
     "jest-preset-stylelint": "^6.1.0",
     "strip-ansi": "^7.1.0",
-    "stylelint": "^14.16.1"
+    "stylelint": "^15.7.0"
   }
 }
