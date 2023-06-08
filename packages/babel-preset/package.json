@@ -1,6 +1,6 @@
 {
   "name": "@web-configs/babel-preset",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
   "description": "ThunderMiracle's org-wide Babel preset",
   "main": "index.js",
