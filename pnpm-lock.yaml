@@ -196,8 +196,8 @@ importers:
         specifier: ^7.22.5
         version: 7.22.5(@babel/eslint-parser@7.22.5)(eslint@8.44.0)
       '@graphql-eslint/eslint-plugin':
-        specifier: ^3.19.2
-        version: 3.19.2(@babel/core@7.22.5)(graphql@15.8.0)
+        specifier: ^3.19.3
+        version: 3.19.3(@babel/core@7.22.5)(graphql@15.8.0)
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.60.1
         version: 5.60.1(@typescript-eslint/parser@5.60.1)(eslint@8.44.0)(typescript@5.1.6)
@@ -2260,8 +2260,8 @@ packages:
     resolution: {integrity: sha512-gIhjdJp/c2beaIWWIlsXdqXVRUz3r2BxBCpfz/F3JXHvSAQ1paMYjLH+maEATtENg+k5eLV7gA+9yPp762ieuw==}
     dev: false
 
-  /@graphql-eslint/eslint-plugin@3.19.2(@babel/core@7.22.5)(graphql@15.8.0):
-    resolution: {integrity: sha512-NTnLzDAaPwR7qeUiIEG5FyB6LEAcIg8R7+ylXaARM0WACcdugC7/jjYBzVhKaIn+Z0kns7t7PHW+Jod3NcDadw==}
+  /@graphql-eslint/eslint-plugin@3.19.3(@babel/core@7.22.5)(graphql@15.8.0):
+    resolution: {integrity: sha512-3s2YUINaTvcOu3XcpvJDCyvF1QfkrgdqXTiK4ZeEvPRCWaaCExdsox2cS8DsJ+4mjlV0VqLi33gn5AecCIrvKg==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
