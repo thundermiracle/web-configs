@@ -33,11 +33,11 @@
     "stylelint-scss": "^5.0.1"
   },
   "peerDependencies": {
-    "stylelint": ">=15.9.0"
+    "stylelint": ">=15.10.2"
   },
   "devDependencies": {
     "jest-preset-stylelint": "^6.1.1",
     "strip-ansi": "^7.1.0",
-    "stylelint": "^15.9.0"
+    "stylelint": "^15.10.2"
   }
 }
