@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.2](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.5.0...@web-configs/eslint-plugin@0.5.2) (2023-08-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#50](https://github.com/thundermiracle/web-configs/issues/50)) ([3862024](https://github.com/thundermiracle/web-configs/commit/3862024824c2b89a0796abea23742d82269d9bb5))
+* **deps:** update all non-major dependencies ([#58](https://github.com/thundermiracle/web-configs/issues/58)) ([e967d5c](https://github.com/thundermiracle/web-configs/commit/e967d5c9ab78de64973f1d9a3617cdf431c93af7))
+* **deps:** update all non-major dependencies ([#62](https://github.com/thundermiracle/web-configs/issues/62)) ([1024729](https://github.com/thundermiracle/web-configs/commit/102472924c904fd1085202f450205e50f4d06093))
+* **deps:** update all non-major dependencies ([#88](https://github.com/thundermiracle/web-configs/issues/88)) ([2e60b5d](https://github.com/thundermiracle/web-configs/commit/2e60b5d2a8db9c2abf8e0e58203e1dfab6adf2ef))
+* **deps:** update all non-major dependencies ([#95](https://github.com/thundermiracle/web-configs/issues/95)) ([4112968](https://github.com/thundermiracle/web-configs/commit/411296898acc5c50aace885eb8bb66677314f4e1))
+* **deps:** update all non-major dependencies to ^7.18.10 ([#48](https://github.com/thundermiracle/web-configs/issues/48)) ([3269303](https://github.com/thundermiracle/web-configs/commit/3269303d5688e3666e86079efaece14861aff76f))
+* **deps:** update dependency @graphql-eslint/eslint-plugin to ^3.19.2 ([#91](https://github.com/thundermiracle/web-configs/issues/91)) ([d574831](https://github.com/thundermiracle/web-configs/commit/d5748311e5dcf426937d0d0b7d0fe6d6bc08493f))
+* **deps:** update dependency @graphql-eslint/eslint-plugin to ^3.19.3 ([#93](https://github.com/thundermiracle/web-configs/issues/93)) ([826220f](https://github.com/thundermiracle/web-configs/commit/826220fb93106d57fc2dfc07ea5c0634b6e83467))
+* **deps:** update dependency eslint-plugin-sort-class-members to ^1.16.0 ([#69](https://github.com/thundermiracle/web-configs/issues/69)) ([c7423c9](https://github.com/thundermiracle/web-configs/commit/c7423c99982d6c99acf871c0eb8b3f14bc86ad1a))
+* **deps:** update linters ([#47](https://github.com/thundermiracle/web-configs/issues/47)) ([5bf7332](https://github.com/thundermiracle/web-configs/commit/5bf733211122eb8608fe67195ba4b1730afc408d))
+* **deps:** update linters ([#52](https://github.com/thundermiracle/web-configs/issues/52)) ([cd4bd54](https://github.com/thundermiracle/web-configs/commit/cd4bd5430d469b73a5cec57118ada325dd6959d2))
+* **deps:** update linters ([#59](https://github.com/thundermiracle/web-configs/issues/59)) ([4b7dbe1](https://github.com/thundermiracle/web-configs/commit/4b7dbe1619b56d54ef089bab966b756db5dcd47f))
+* **deps:** update linters ([#63](https://github.com/thundermiracle/web-configs/issues/63)) ([663a65c](https://github.com/thundermiracle/web-configs/commit/663a65c4cc7d0775d908f269df16cff922272052))
+* **deps:** update linters ([#67](https://github.com/thundermiracle/web-configs/issues/67)) ([8fffe20](https://github.com/thundermiracle/web-configs/commit/8fffe20d281dc7cc61c667a411b5658a1f6b86fe))
+* **deps:** update linters ([#71](https://github.com/thundermiracle/web-configs/issues/71)) ([0ddffab](https://github.com/thundermiracle/web-configs/commit/0ddffab882a9220a4fcf982059a4857f2ea8391a))
+* **deps:** update linters ([#72](https://github.com/thundermiracle/web-configs/issues/72)) ([75923e3](https://github.com/thundermiracle/web-configs/commit/75923e34fbb3064248bcbd924b27e91cad228505))
+* **deps:** update linters ([#74](https://github.com/thundermiracle/web-configs/issues/74)) ([62eba0e](https://github.com/thundermiracle/web-configs/commit/62eba0ecf75d6e485f42307a0858e135df2f7c87))
+* **deps:** update linters ([#89](https://github.com/thundermiracle/web-configs/issues/89)) ([5d7f3fc](https://github.com/thundermiracle/web-configs/commit/5d7f3fc9d10eea346cb291eca768a849f57a3649))
+* **deps:** update linters ([#97](https://github.com/thundermiracle/web-configs/issues/97)) ([c41cd3f](https://github.com/thundermiracle/web-configs/commit/c41cd3fe25da5ebefc9d12677dace136f182892c))
+* **deps:** update linters ([#98](https://github.com/thundermiracle/web-configs/issues/98)) ([d1836c2](https://github.com/thundermiracle/web-configs/commit/d1836c204e7d0e63388248de6a4e6698578911d5))
+
+
+
+
+
 ## [0.5.1](https://github.com/thundermiracle/web-configs/compare/@web-configs/eslint-plugin@0.5.0...@web-configs/eslint-plugin@0.5.1) (2023-06-08)
 
 
