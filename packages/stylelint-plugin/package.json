@@ -36,7 +36,7 @@
     "stylelint": ">=15.10.2"
   },
   "devDependencies": {
-    "jest-preset-stylelint": "^6.1.1",
+    "jest-preset-stylelint": "^6.2.0",
     "strip-ansi": "^7.1.0",
     "stylelint": "^15.10.2"
   }
