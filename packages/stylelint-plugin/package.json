@@ -30,14 +30,14 @@
     "stylelint-high-performance-animation": "^1.10.0",
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^5.0.0",
-    "stylelint-scss": "^6.0.0"
+    "stylelint-scss": "^6.1.0"
   },
   "peerDependencies": {
-    "stylelint": ">=16.1.0"
+    "stylelint": ">=16.2.0"
   },
   "devDependencies": {
     "jest-preset-stylelint": "^7.0.0",
     "strip-ansi": "^7.1.0",
-    "stylelint": "^16.1.0"
+    "stylelint": "^16.2.0"
   }
 }
