@@ -26,15 +26,15 @@
   "homepage": "https://github.com/thundermiracle/web-configs/blob/main/packages/eslint-plugin/README.md",
   "devDependencies": {
     "react": "^18.2.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
     "eslint": "^8.57.0"
   },
   "dependencies": {
-    "@babel/core": "^7.24.3",
+    "@babel/core": "^7.24.5",
     "@babel/eslint-parser": "^7.23.10",
-    "@babel/eslint-plugin": "^7.23.5",
+    "@babel/eslint-plugin": "^7.24.5",
     "@graphql-eslint/eslint-plugin": "^3.20.1",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
