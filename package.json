@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "name": "web-configs",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@8.15.8",
   "author": "ThunderMiracle",
   "license": "MIT",
   "private": true,
@@ -17,7 +17,7 @@
     "updated": "lerna updated"
   },
   "devDependencies": {
-    "@swc/core": "^1.4.11",
+    "@swc/core": "^1.4.17",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
     "@web-configs/babel-preset": "workspace:*",
