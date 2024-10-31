@@ -19,7 +19,7 @@
   "devDependencies": {
     "@swc/core": "^1.4.17",
     "@swc/jest": "^0.2.36",
-    "@types/jest": "^29.5.13",
+    "@types/jest": "^29.5.14",
     "@web-configs/babel-preset": "workspace:*",
     "@web-configs/eslint-plugin": "workspace:*",
     "@web-configs/prettier": "workspace:*",
