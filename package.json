@@ -23,13 +23,13 @@
     "@web-configs/babel-preset": "workspace:*",
     "@web-configs/eslint-plugin": "workspace:*",
     "@web-configs/prettier": "workspace:*",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "fs-extra": "^11.2.0",
     "glob": "^10.3.12",
     "jest": "^29.7.0",
     "lerna": "^7.4.2",
     "plop": "^3.1.2",
-    "prettier": "^3.2.5"
+    "prettier": "^3.5.2"
   },
   "prettier": "@web-configs/prettier"
 }
