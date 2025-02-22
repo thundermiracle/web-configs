@@ -27,17 +27,17 @@
     "postcss": "^8.4.38",
     "postcss-scss": "^4.0.9",
     "stylelint-config-prettier": "^9.0.5",
-    "stylelint-high-performance-animation": "^1.10.0",
+    "stylelint-high-performance-animation": "^1.11.0",
     "stylelint-order": "^6.0.4",
-    "stylelint-prettier": "^5.0.0",
-    "stylelint-scss": "^6.1.0"
+    "stylelint-prettier": "^5.0.3",
+    "stylelint-scss": "^6.11.1"
   },
   "peerDependencies": {
-    "stylelint": ">=16.2.1"
+    "stylelint": ">=16.14.1"
   },
   "devDependencies": {
     "jest-preset-stylelint": "^7.2.0",
     "strip-ansi": "^7.1.0",
-    "stylelint": "^16.2.1"
+    "stylelint": "^16.14.1"
   }
 }
