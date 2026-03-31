@@ -193,8 +193,8 @@ importers:
         specifier: ^7.28.6
         version: 7.28.6(@babel/core@7.24.5)(eslint@8.57.1)
       '@babel/eslint-plugin':
-        specifier: ^7.24.5
-        version: 7.24.5(@babel/eslint-parser@7.28.6)(eslint@8.57.1)
+        specifier: ^7.27.1
+        version: 7.27.1(@babel/eslint-parser@7.28.6)(eslint@8.57.1)
       '@graphql-eslint/eslint-plugin':
         specifier: ^3.20.1
         version: 3.20.1(@babel/core@7.24.5)(graphql@15.8.0)
@@ -462,8 +462,8 @@ packages:
       semver: 6.3.1
     dev: false
 
-  /@babel/eslint-plugin@7.24.5(@babel/eslint-parser@7.28.6)(eslint@8.57.1):
-    resolution: {integrity: sha512-5n3K9Zv13VOa9SG2ZiX0WV7A0ddApRn6vsV8zBojCsxnCbYKLjCDvzDfVxS7C4STmjQDOXU1uk/ppxxDTC860w==}
+  /@babel/eslint-plugin@7.27.1(@babel/eslint-parser@7.28.6)(eslint@8.57.1):
+    resolution: {integrity: sha512-vOG/EipZbIAcREK6XI4JRO3B3uZr70/KIhsrNLO9RXcgLMaW0sTsBpNeTpQUyelB0HsbWd45NIsuTgD3mqr/Og==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/eslint-parser': ^7.11.0
