@@ -260,8 +260,8 @@ importers:
         version: 15.8.0
     devDependencies:
       react:
-        specifier: ^18.3.1
-        version: 18.3.1
+        specifier: ^19.2.6
+        version: 19.2.6
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -8670,6 +8670,7 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: false
 
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
@@ -10098,11 +10099,9 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /react@18.3.1:
-    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
+  /react@19.2.6:
+    resolution: {integrity: sha512-sfWGGfavi0xr8Pg0sVsyHMAOziVYKgPLNrS7ig+ivMNb3wbCBw3KxtflsGBAwD3gYQlE/AEZsTLgToRrSCjb0Q==}
     engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
     dev: true
 
   /read-cmd-shim@4.0.0:
