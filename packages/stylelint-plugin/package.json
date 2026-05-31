@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/thundermiracle/web-configs/blob/main/packages/stylelint-plugin/README.md",
   "dependencies": {
-    "postcss": "^8.4.38",
+    "postcss": "^8.5.15",
     "postcss-scss": "^4.0.9",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-high-performance-animation": "^1.11.0",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "jest-preset-stylelint": "^7.3.0",
-    "strip-ansi": "^7.1.0",
+    "strip-ansi": "^7.2.0",
     "stylelint": "^16.26.1"
   }
 }
